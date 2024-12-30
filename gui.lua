@@ -63,7 +63,7 @@ e.Draggable = true;
 e.Active = true;
 e.Selectable = true;
 e.BackgroundTransparency = 0.1;
-e.Image = "rbxassetid://81373434812931";
+e.Image = "rbxassetid://72664485903836";
 e.Visible = false;
 local a = Instance.new("UICorner");
 a.Name = "MCNR";
@@ -147,7 +147,7 @@ a.Window = function(self, f, f, f)
 	j.ImageColor3 = Color3.fromRGB(255, 255, 255);
 	j.Position = UDim2.new(0, 500, 0, 7);
 	j.Size = UDim2.new(0, 30, 0, 30);
-	j.Image = "rbxassetid://81373434812931";
+	j.Image = "rbxassetid://72664485903836";
 	j.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game);
 		game:GetService("VirtualInputManager"):SendKeyEvent(false, 305, false, game);
@@ -765,7 +765,7 @@ a.Window = function(self, f, f, f)
 			l.BorderSizePixel = 0;
 			l.Position = UDim2.new(0, 7.5, 0, 7.5);
 			l.Size = UDim2.new(0, 30, 0, 30);
-			l.Image = "rbxassetid://109216895320674";
+			l.Image = "rbxassetid://72664485903836";
 			m.Parent = j;
 			m.BackgroundColor3 = Color3.fromRGB(150, 150, 150);
 			m.BackgroundTransparency = 1;
